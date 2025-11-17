@@ -11,7 +11,7 @@ export const DATA = {
     "Software Engineer passionate about Web3 and blockchain. I love building useful and innovative products.",
   summary:
     "I'm a full-stack developer focused on both frontend and backend using Next.js and modern JavaScript/TypeScript. I enjoy building fast, scalable web apps with great user experiences and solid backend systems. I'm also passionate about Web3 and blockchain, and I’m always exploring how new tech can shape the future of the web. I love learning, solving problems, and working with teams to build useful and innovative products.",
-  avatarUrl: "/me.png",
+  avatarUrl: "/my.jpg",
   skills: [
     "React",
     "Next.js",
@@ -76,6 +76,81 @@ export const DATA = {
   
   ],
   projects: [
+    {
+      title: "Chin",
+      href: "https://chin-eight.vercel.app/",
+      dates: "June 2024 - Present",
+      active: true,
+      description:"HospiTwin Lite is an AI-powered Emergency Room Flow Analyzer that processes ER queue videos to detect crowding and patient flow bottlenecks. It delivers actionable insights and operational recommendations through automated video analytics and an interactive chat assistant.",
+      technologies: [
+        "Python",
+        "Next.js",
+        "Typescript",
+      ],
+      links: [
+        {
+          type: "Website",
+          href: "https://chin-eight.vercel.app/",
+          icon: <Icons.globe className="size-3" />,
+        },
+         {
+          type: "Source",
+          href: "https://github.com/Candra0x6/Chin.",
+          icon: <Icons.github className="size-3" />,
+        },
+      ],
+      image: "/hospiTwin.png",
+    },
+    {
+      title: "Carsa",
+      href: "https://carsa.vercel.app/",
+      dates: "June 2024 - Present",
+      active: true,
+      description:"Transform ordinary buying into a future-ready digital wealth experience with yield-generating Lokal tokens. Increase your LocalRank and shape stronger, smarter local economies through blockchain-enabled loyalty.",
+      technologies: [
+        "Rust",
+        "Next.js",
+        "Typescript",
+      ],
+      links: [
+        {
+          type: "Website",
+          href: "https://carsa.vercel.app/",
+          icon: <Icons.globe className="size-3" />,
+        },
+         {
+          type: "Source",
+          href: "https://github.com/Candra0x6/carsa-solana",
+          icon: <Icons.github className="size-3" />,
+        },
+      ],
+      image: "/Carsa.png",
+    },
+    {
+      title: "Roca",
+      href: "https://roca-theta.vercel.app/",
+      dates: "June 2024 - Present",
+      active: true,
+      description:"Experience Decentralized Arisan, a blockchain-powered ROSCA where every transaction is recorded on-chain for complete transparency and trust. Create or join secure rotating savings circles backed by Somnia and ZetaChain.",
+      technologies: [
+        "Solidity",
+        "Next.js",
+        "Typescript",
+      ],
+      links: [
+        {
+          type: "Website",
+          href: "https://roca-theta.vercel.app/",
+          icon: <Icons.globe className="size-3" />,
+        },
+         {
+          type: "Source",
+          href: "https://github.com/Candra0x6/Roca.git",
+          icon: <Icons.github className="size-3" />,
+        },
+      ],
+      image: "/roca.png",
+    },
     {
       title: "Tepay",
       href: "https://y5hnf-uqaaa-aaaai-q3yza-cai.icp0.io/",
